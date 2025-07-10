@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px 10px;
+
+    }
+
+    body {
+        background-color: rgb(4, 51, 161);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .head {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .head:hover {
+        background-color: rgb(12, 79, 138);
+        margin: 0px;
+
+    }
+
+    .navlinks {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .navlink {
+        color: rgb(201, 174, 140);
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 30px;
+    }
+
+    .navlink:hover {
+        color: rgb(255, 255, 255);
+        border-bottom: 2px solid rgb(255, 255, 255);
+        transition: color 0.3s, border-bottom 0.3s;
+    }
+
+    /* title */
+    .title {
+
+        align-items: center;
+        text-align: center;
+        color: rgb(255, 222, 6);
+        font-size: 20px;
+        margin-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        border-bottom: 2px solid rgb(7, 0, 0);
+
+    }
+
+    .title:hover {
+        color: rgb(206, 255, 10);
+        text-shadow: 4px 4px 4px rgba(185, 240, 4, 0.5);
+        transition: color 0.3s, text-shadow 0.3s;
+
+    }
+
+    /* cards */
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0px;
+        margin-top: 100px;
+        padding: 30px;
+    }
+
+    .container:hover {
+        background-color: rgb(12, 79, 138);
+        border: 4px black solid;
+        border-radius: 10px;
+    }
+
+    .img img {
+        border-radius: 10px;
+        width: 400px
+    }
+
+    .img img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgb(206, 186, 186);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    p {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        padding-bottom: 30px;
+
+    }
+
+    .titl1 {
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .titl1:hover {
+        color: rgb(201, 174, 140);
+        transform: scaleX(1.1);
+        text-shadow: 4px 4px 4px rgb(0, 145, 255);
+        transition: color 0.3s, transform 0.3s, text-shadow 0.3s;
+    }
+
+    .btu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    button {
+        background-color: rgb(255, 255, 255);
+        color: rgb(4, 51, 161);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+</style>
+
+<body>
+    <!-- nav -->
+    <div class="head">
+        <img src="./logo.png" width="50" height="50" alt="logo" style="margin-left: -30px; border-radius: 4px;">
+        <div class="navlinks">
+            <a href="./index.html" class="navlink">Home</a>
+            <a href="./fastival.html" class="navlink">Fastival</a>
+            <a href="./food.html" class="navlink">Food</a>
+            <a href="./places.html" class="navlink">Places</a>
+        </div>
+    </div>
+    <!-- title -->
+    <div class="title">
+        <h1>Fastival</h1>
+    </div>
+
+    <!-- cards -->
+
+    <section>
+        <div class="container">
+            <div class="img">
+                <img src="https://assets.thehansindia.com/h-upload/2020/01/12/253405-sankranthi.webp" alt="">
+            </div>
+            <div class="content">
+                <h3 class="titl1">Makar Sankranti</h3>
+                <div class="text">
+                    <p>Makar Sankranti is one of the most important festivals in India, celebrated with great joy and
+                        enthusiasm. It is also known as the Harvest Festival and is celebrated every year on January
+                        14th. It is believed that the Sun moves into the zodiac sign of Capricorn (Makar). Makar
+                        Sankranti brings people together to celebrate the beginning of the harvest season, the triumph
+                        of light over darkness and the significance of the new beginning. </p>
+                    <div class="btu">
+                        <!-- <a
+                                href="https://www.google.com/maps/place/Tirupati+Tirumala+Devasthanam+Entrance/@17.415511,78.4154307,17z/data=!4m6!3m5!1s0x3bcb97006bb0c69b:0xb768bff2c703db03!8m2!3d17.415511!4d78.4180056!16s%2Fg%2F11w31tzbqq?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D">
+                                <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                    alt="">
+                            </a> -->
+                        <button>
+                            <a href="https://blog.yatradham.org/makar-sankranti-celebrations/">more about</a>
+                        </button>
+                        <!-- <button>
+                            <a class="" href="./places.html">See More Places</a>
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+
+            <div class="content">
+                <h3 class="titl1">RK Beach</h3>
+                <div class="text">
+                    <p>Every year, the festival of Dussehra is celebrated with great enthusiasm and zeal. People across
+                        the country take part in the occasion in their unique style. It is the day when ten-headed
+                        Ravana was killed by Lord Rama. Vijayadashami is an auspicious festival in Hinduism and
+                        celebrates the triumph of good over evil. Every locality of the country has its own uniqueness
+                        in the celebrations.
+                    </p>
+                    <div class="btu">
+                        <!-- <a
+                            href="https://www.google.com/maps/place/Tirupati+Tirumala+Devasthanam+Entrance/@17.415511,78.4154307,17z/data=!4m6!3m5!1s0x3bcb97006bb0c69b:0xb768bff2c703db03!8m2!3d17.415511!4d78.4180056!16s%2Fg%2F11w31tzbqq?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D">
+                            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                alt="">
+                        </a> -->
+                        <button>
+                            <a href="https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala">more about</a>
+                        </button>
+                        <!-- <button>
+                            <a class="" href="./places.html">See More Places</a>
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="img">
+                <img src="https://static.bankbazaar.com/images/india/infographic/dussehra-holidays.webp" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="img">
+                <img src="https://magikindia.com/wp-content/uploads/2021/10/Diwali.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3 class="titl1">DIWALI</h3>
+                <div class="text">
+                    <p>Diwali, one of the major religious festivals in Hinduism, Jainism, and Sikhism, lasting for five
+                        days from the 13th day of the dark half of the lunar month Ashvina to the second day of the
+                        light half of the lunar month Karttika. (The corresponding dates in the Gregorian calendar
+                        usually fall in late October and November.) The name is derived from the Sanskrit term dipavali,
+                        meaning “row of lights.” The festival generally symbolizes the victory of light over darkness.
+                    </p>
+                    <div class="btu">
+                        <!-- <a
+                            href="https://www.google.com/maps/place/Tirupati+Tirumala+Devasthanam+Entrance/@17.415511,78.4154307,17z/data=!4m6!3m5!1s0x3bcb97006bb0c69b:0xb768bff2c703db03!8m2!3d17.415511!4d78.4180056!16s%2Fg%2F11w31tzbqq?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D">
+                            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                alt="">
+                        </a> -->
+                        <button>
+                            <a href="https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala">more about</a>
+                        </button>
+                        <!-- <button>
+                            <a class="" href="./places.html">See More Places</a>
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+
+            <div class="content">
+                <h3 class="titl1">RK Beach</h3>
+                <div class="text">
+                    <p>Ugadi, also known as Yugadi, is a Hindu festival marking the start of the new year according to
+                        the lunisolar calendar in the Deccan region of India. It is celebrated in Andhra Pradesh,
+                        Telangana, Karnataka, and Maharashtra (as Gudi Padwa). The festival falls in late March or early
+                        April and is a time for new beginnings, celebrated with traditional rituals, delicious food, and
+                        cultural festivities.
+                    </p>
+                    <div class="btu">
+                        <!-- <a
+                            href="https://www.google.com/maps/place/Tirupati+Tirumala+Devasthanam+Entrance/@17.415511,78.4154307,17z/data=!4m6!3m5!1s0x3bcb97006bb0c69b:0xb768bff2c703db03!8m2!3d17.415511!4d78.4180056!16s%2Fg%2F11w31tzbqq?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D">
+                            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                alt="">
+                        </a> -->
+                        <button>
+                            <a href="https://www.britannica.com/topic/Ugadi">more about</a>
+                        </button>
+                        <!-- <button>
+                            <a class="" href="./places.html">See More Places</a>
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="img">
+                <img src="https://cdn.britannica.com/28/256328-050-1A771D97/ugadi-yugadi-andhrula-pachadi-hindu-new-year-india-festival.jpg?w=300"
+                    alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Sirimanu.jpg"
+                    alt="">
+            </div>
+            <div class="content">
+                <h3 class="titl1">Sirimanothsavam</h3>
+                <div class="text">
+                    <p>The annual Sirimanotsavam festival at the Pydithalli Ammavari temple in Vizianagaram is a major
+                        event, typically held in September or October, following Vijayadasami. It's a celebration
+                        honoring Goddess Pydimamba, the presiding deity of the temple. A key highlight is the Sirimanu
+                        Utsav, where a large tree trunk (Sirimanu) is carried on a chariot with the temple priest
+                        perched atop, after being possessed by the goddess
+                    </p>
+                    <div class="btu">
+                        <!-- <a
+                            href="https://www.google.com/maps/place/Tirupati+Tirumala+Devasthanam+Entrance/@17.415511,78.4154307,17z/data=!4m6!3m5!1s0x3bcb97006bb0c69b:0xb768bff2c703db03!8m2!3d17.415511!4d78.4180056!16s%2Fg%2F11w31tzbqq?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D">
+                            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                alt="">
+                        </a> -->
+                        <button>
+                            <a href="https://en.wikipedia.org/wiki/Sirimanothsavam">more about</a>
+                        </button>
+                        <!-- <button>
+                            <a class="" href="./places.html">See More Places</a>
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>

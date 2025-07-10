@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px 10px;
+
+    }
+
+    body {
+        background-color: rgb(4, 51, 161);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .head {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .head:hover {
+        background-color: rgb(12, 79, 138);
+        margin: 0px;
+
+    }
+
+    .navlinks {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .navlink {
+        color: rgb(201, 174, 140);
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 30px;
+    }
+
+    .navlink:hover {
+        color: rgb(255, 255, 255);
+        border-bottom: 2px solid rgb(255, 255, 255);
+        transition: color 0.3s, border-bottom 0.3s;
+    }
+
+    /* title */
+    .title1 {
+
+        align-items: center;
+        text-align: center;
+        color: rgb(255, 222, 6);
+        font-size: 20px;
+        margin-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        border-bottom: 2px solid rgb(7, 0, 0);
+
+    }
+
+    .title1:hover {
+        color: rgb(206, 255, 10);
+        text-shadow: 4px 4px 4px rgba(185, 240, 4, 0.5);
+        transition: color 0.3s, text-shadow 0.3s;
+
+    }
+
+    /* cards */
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0px;
+        margin-top: 100px;
+        padding: 30px;
+    }
+
+    .container:hover {
+        background-color: rgb(12, 79, 138);
+        border: 4px black solid;
+        border-radius: 10px;
+    }
+
+    .img img {
+        border-radius: 10px;
+        width: 400px
+    }
+
+    .img img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgb(206, 186, 186);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    p {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        padding-bottom: 30px;
+
+    }
+
+    .title {
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .title:hover {
+        color: rgb(201, 174, 140);
+        transform: scaleX(1.1);
+        text-shadow: 4px 4px 4px rgb(0, 145, 255);
+        transition: color 0.3s, transform 0.3s, text-shadow 0.3s;
+    }
+
+    .btu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    button {
+        background-color: rgb(255, 255, 255);
+        color: rgb(4, 51, 161);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+</style>
+
+<body>
+    <!-- nav -->
+    <div class="head">
+        <img src="./logo.png" width="50" height="50" alt="logo" style="margin-left: -30px; border-radius: 4px;">
+        <div class="navlinks">
+            <a href="./index.html" class="navlink">Home</a>
+            <a href="./fastival.html" class="navlink">Fastival</a>
+            <a href="./food.html" class="navlink">Food</a>
+            <a href="./places.html" class="navlink">Places</a>
+        </div>
+    </div>
+    <div class="title1">
+        <h1>Food</h1>
+    </div>
+
+    <!-- cards -->
+    <section>
+        <div class="container">
+
+            <div class="content">
+                <h3 class="title">Atreyapuram Putharekulu</h3>
+                <div class="text">
+                    <p>Andhra Pradesh is home to numerous famous temples. Some of the most prominent ones include the
+                        Tirumala Venkateswara Temple in Tirupati, the Kanaka Durga Temple in Vijayawada, and the
+                        Srisailam Mallikarjuna Temple. Other notable temples include the Srikalahasti Temple, Ahobilam
+                        Temple, and the Simhachalam Temple.
+                    </p>
+                    <div class="btu">
+                        <a
+                            href="https://www.google.com/maps/place/Tirupati+Tirumala+Devasthanam+Entrance/@17.415511,78.4154307,17z/data=!4m6!3m5!1s0x3bcb97006bb0c69b:0xb768bff2c703db03!8m2!3d17.415511!4d78.4180056!16s%2Fg%2F11w31tzbqq?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D">
+                            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                alt="">
+                        </a>
+                        <button>
+                            <a href="https://en.wikipedia.org/wiki/Pootharekulu">more about</a>
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="img">
+                <img src="https://th.bing.com/th/id/ODL.82c78856c5a765d2c3a3c62c3d54f863?w=133&h=113&c=10&rs=1&o=6&dpr=1.5&pid=AlgoBlockDebug"
+                    alt="">
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="img">
+                <img src="https://www.yummytummyaarthi.com/wp-content/uploads/2021/12/palkova-1.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">Palasa pala-cova</h3>
+                <div class="text">
+                    <p>Palkova is a popular and favorite Indian sweet which is literally milk thickened to halwa
+                        consistency with sugar. It is often known as therattipal in southern part of tamilnadu. In this
+                        blog post, I have shared traditional method and also an Instant 5 minutes version. Learn how to
+                        make palkova recipe with step by step pictures, instructions and video.
+                    </p>
+                    <div class="btu">
+                        <a
+                            href="https://www.bing.com/maps?q=palasa+palacova&FORM=HDRSC6&cp=18.748888%7E84.570614&lvl=10.7">
+                            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                alt="">
+                        </a>
+                        <button>
+                            <a href="https://www.yummytummyaarthi.com/paal-kova-in-10-mins-dhoodh-peda/u">more about</a>
+                        </button>
+                        <!--  -->
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section>
+        <div class="container">
+
+            <div class="content">
+                <h3 class="title">Tirupati temple laddu</h3>
+                <div class="text">
+                    <p>The Tirupati temple laddu made by the Tirumala Tirupati Devasthanam is staple for devotees who
+                        visit the Tirumala Venkateswara temple in Andhra Pradesh. However, recently it has been in the
+                        news for all wrong reasons.
+                    </p>
+                    <div class="btu">
+                        <a
+                            href="https://www.bing.com/maps?q=thirupathi+laddu&FORM=HDRSC6&cp=13.64999%7E79.419994&lvl=16.0">
+                            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                alt="">
+                        </a>
+                        <button>
+                            <a href="https://en.wikipedia.org/wiki/Tirupati_laddu">more about</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="img">
+                <img src="https://hungryforever.net/wp-content/uploads/2017/09/feature-image-tirupati-laddu-1000x600.jpg"
+                    alt="">
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container">
+              <div class="img">
+                <img src="https://vismaifood.com/storage/app/uploads/public/f47/ba6/db9/thumb__700_0_0_0_auto.jpg"
+                    alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">Annavaram Prasadam</h3>
+                <div class="text">
+                    <p>Annavaram Prasadam Recipe | Real Annavaram Prasadam Recipe | Sri Swamy Vari Prasadam -
+                        Satyanarayana Swamy is the Lord of the bountiful and it is considered auspicious to perform a
+                        special Puja for Him for prosperity, protection and peace.
+                    </p>
+                    <div class="btu">
+                        <a
+                            href="https://www.bing.com/maps?q=annavaram+prasadam&FORM=HDRSC6&cp=17.263704~82.394096&lvl=14.6">
+                            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                alt="">
+                        </a>
+                        <button>
+                            <a href="https://vismaifood.com/en/annavaram-prasadam-recipe-real-annavaram-prasadam-recipe-sri-swamy-vari-prasadam-how-to-make-annavaram-prasadam">more about</a>
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+          
+
+        </div>
+    </section>
+</body>
+
+</html>
