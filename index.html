@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px 10px;
+        
+    }
+
+    body {
+        background-color: rgb(4, 51, 161);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .head {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .head:hover {
+        background-color: rgb(12, 79, 138);
+        margin: 0px;
+
+    }
+
+    .navlinks {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .navlink {
+        color: rgb(201, 174, 140);
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 30px;
+    }
+
+    .navlink:hover {
+        color: rgb(255, 255, 255);
+        border-bottom: 2px solid rgb(255, 255, 255);
+        transition: color 0.3s, border-bottom 0.3s;
+    }
+
+    /* header */
+    .header {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .header img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .header-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .header-text p {
+        margin: 0;
+        font-size: 38px;
+        color: rgb(21, 1, 1);
+        font-weight: bold;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .header-text .subtext {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    /* cards */
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0px;
+        margin-top: 100px;
+        padding: 30px;
+    }
+
+    .container:hover {
+        background-color: rgb(12, 79, 138);
+        border: 4px black solid;
+        border-radius: 10px;
+    }
+
+    .img img {
+        border-radius: 10px;
+        width: 400px
+    }
+
+    .img img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgb(206, 186, 186);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    p {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        padding-bottom: 30px;
+
+    }
+
+    .title {
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .title:hover {
+        color: rgb(201, 174, 140);
+        transform: scaleX(1.1);
+        text-shadow: 4px 4px 4px rgb(0, 145, 255);
+        transition: color 0.3s, transform 0.3s, text-shadow 0.3s;
+    }
+
+    .btu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    button {
+        background-color: rgb(255, 255, 255);
+        color: rgb(4, 51, 161);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+</style>
+
+<body>
+    <!-- nav -->
+    <div class="head">
+        <img src="./logo.png" width="50" height="50" alt="logo" style="margin-left: -30px; border-radius: 4px;">
+        <div class="navlinks">
+            <a href="./index.html" class="navlink">Home</a>
+            <a href="./fastival.html" class="navlink">Fastival</a>
+            <a href="./food.html" class="navlink">Food</a>
+            <a href="./places.html" class="navlink">Places</a>
+        </div>
+    </div>
+   
+<!-- header -->
+    <header class="header">
+        <img src="https://th.bing.com/th/id/OIP.As46lJXIcuvzoHdx2kdrugHaEK?w=308&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
+            alt="header image">
+        <div class="header-text">
+            <p>దేశ భాషలందు తెలుగు లెస్స</p>
+            <p class="subtext">Among the nation’s languages, Telugu is the best</p>
+        </div>
+    </header>
+
+    <!-- why andra -->
+     <center style="font-size: 60px; color:rgb(162, 237, 0); margin-top: 30px; font-family: 'Courier New', Courier, monospace; font-weight: bold;">Andhra Pradesh</center>
+<p style="text-align: justify; font-size: 14px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Traditional Attire and Crafts
+The traditional attire of Andhra Pradesh includes various types of sarees such as Venkatagiri, Uppada, and Dharmavaram sarees, known for their intricate designs and craftsmanship. The state is also famous for its handicrafts, including wood carving, metal work, and colorful toys from Etikoppaka and Kondapalli. The Ikat weaving technique, particularly from the Nalgonda district, is renowned for its vibrant patterns and intricate designs. 
+
+Festivals and Celebrations
+Andhra Pradesh is home to numerous festivals that reflect its cultural diversity. Major festivals include Ugadi (Telugu New Year), Makar Sankranti, Dasara, and Diwali. These celebrations often involve traditional rituals, music, dance, and communal feasting, showcasing the state's rich heritage. 
+
+Music and Dance
+The state has a vibrant musical heritage, particularly known for Carnatic music. It has produced many legendary musicians, including Thyagaraja and Muthuswami Dikshitar. The classical dance form Kuchipudi originates from Andhra Pradesh and is celebrated for its expressive storytelling and intricate footwork. 
+
+Literature and Language
+Telugu, the official language of Andhra Pradesh, has a rich literary tradition with contributions from poets like Nannayya, Tikkana, and Yerrapragada, who translated the Mahabharata into Telugu. The language is known for its lyrical quality and is a significant part of the state's cultural identity. 
+
+Architectural Heritage
+The architectural style of Andhra Pradesh reflects its historical influences, with notable structures like the Tirupati Temple and various forts and palaces built during the reign of different dynasties, including the Kakatiyas and Vijayanagara Empire. The state's temples are characterized by intricate carvings and sculptures that depict various deities and mythological themes. 
+
+Culinary Traditions
+Andhra cuisine is famous for its spicy and flavorful dishes, often featuring rice, lentils, and a variety of vegetables. Signature dishes include Pulihora (tamarind rice), Gongura (sorrel leaves), and various pickles that add a distinctive taste to meals. 
+
+
+In summary, the culture of Andhra Pradesh is a vibrant tapestry woven from its historical roots, artistic expressions, and culinary delights, making it a unique and integral part of India's cultural landscape.</p>
+
+
+    <!-- famous cards1 -->
+    <section>
+        <div class="container">
+            <div class="img">
+                <img src="https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2019/10/Annavaram-Temple-Andhra-Pradesh.jpg?"
+                    alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">THIRUPATHI</h3>
+                <div class="text">
+                    <p>Andhra Pradesh is home to numerous famous temples. Some of the most prominent ones include the
+                        Tirumala Venkateswara Temple in Tirupati, the Kanaka Durga Temple in Vijayawada, and the
+                        Srisailam Mallikarjuna Temple. Other notable temples include the Srikalahasti Temple, Ahobilam
+                        Temple, and the Simhachalam Temple.
+                    </p>
+                    <div class="btu">
+                        <a
+                            href="https://www.google.com/maps/place/Tirupati+Tirumala+Devasthanam+Entrance/@17.415511,78.4154307,17z/data=!4m6!3m5!1s0x3bcb97006bb0c69b:0xb768bff2c703db03!8m2!3d17.415511!4d78.4180056!16s%2Fg%2F11w31tzbqq?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D">
+                            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                alt="">
+                        </a>
+                        <button>
+                            <a href="https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala">more about</a>
+                        </button>
+                        <button>
+                            <a class="" href="./places.html">See More Places</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- card2 -->
+     <section>
+        <div class="container">
+           
+            <div class="content">
+                <h3 class="title">Atreyapuram Putharekulu</h3>
+                <div class="text">
+                    <p>Andhra Pradesh is home to numerous famous temples. Some of the most prominent ones include the
+                        Tirumala Venkateswara Temple in Tirupati, the Kanaka Durga Temple in Vijayawada, and the
+                        Srisailam Mallikarjuna Temple. Other notable temples include the Srikalahasti Temple, Ahobilam
+                        Temple, and the Simhachalam Temple.
+                    </p>
+                    <div class="btu">
+                        <a
+                            href="https://www.google.com/maps/place/Tirupati+Tirumala+Devasthanam+Entrance/@17.415511,78.4154307,17z/data=!4m6!3m5!1s0x3bcb97006bb0c69b:0xb768bff2c703db03!8m2!3d17.415511!4d78.4180056!16s%2Fg%2F11w31tzbqq?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D">
+                            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                alt="">
+                        </a>
+                        <button>
+                            <a href="https://en.wikipedia.org/wiki/Pootharekulu">more about</a>
+                        </button>
+                        <button>
+                            <a class="" href="./food.html">See More Places</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+             <div class="img">
+                <img src="https://th.bing.com/th/id/ODL.82c78856c5a765d2c3a3c62c3d54f863?w=133&h=113&c=10&rs=1&o=6&dpr=1.5&pid=AlgoBlockDebug"
+                    alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- card-3 -->
+     <section>
+        <div class="container">
+            <div class="img">
+                <img src="https://th.bing.com/th?id=OLC.q6tiB+vYGXC+vQ480x360&w=280&h=140&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+                    alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">RK Beach</h3>
+                <div class="text">
+                    <p>Andhra Pradesh is home to numerous famous temples. Some of the most prominent ones include the
+                        Tirumala Venkateswara Temple in Tirupati, the Kanaka Durga Temple in Vijayawada, and the
+                        Srisailam Mallikarjuna Temple. Other notable temples include the Srikalahasti Temple, Ahobilam
+                        Temple, and the Simhachalam Temple.
+                    </p>
+                    <div class="btu">
+                        <a
+                            href="https://www.google.com/maps/place/Tirupati+Tirumala+Devasthanam+Entrance/@17.415511,78.4154307,17z/data=!4m6!3m5!1s0x3bcb97006bb0c69b:0xb768bff2c703db03!8m2!3d17.415511!4d78.4180056!16s%2Fg%2F11w31tzbqq?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D">
+                            <img src="https://cdn-icons-png.flaticon.com/128/535/535239.png" style="width: 50px;"
+                                alt="">
+                        </a>
+                        <button>
+                            <a href="https://en.wikipedia.org/wiki/RK_Beach">more about</a>
+                        </button>
+                        <button>
+                            <a class="" href="./places.html">See More Places</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
